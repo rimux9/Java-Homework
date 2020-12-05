@@ -1,8 +1,5 @@
 package ChristmasShopping;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Shop {
 
     private String name;
@@ -17,5 +14,7 @@ public class Shop {
         return shoppingBag;
     }
 
-
+    public String getName() {
+        return name;
+    }
 }

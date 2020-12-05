@@ -14,6 +14,10 @@ public class ShoppingList {
         shops.add(shop);
     }
 
+    public List<Shop> getShops() {
+        return shops;
+    }
+
     public double returnFullPrice() {
         return shops.stream()
                 .mapToDouble(shop -> shop.getShoppingBag().getTotalPrice())
